@@ -7,6 +7,6 @@ The first time this script is run, it also creates 2 files, which save the best 
 Moreover, each run also generates a plot of the best individual, which compares its behavior with the one of Keller's approximation, saved in the "kalecki_plots" folder.  
 
 To generate the plots provided in the paper, it is sufficient to run the "plot_main.py" file. The script automatically runs the comparison between the exact model, Keller's approximation, and GP results: if the user wants to obtain boxplots, it is sufficient to de-comment the first part of the script. It is important to underline a small modification carried on to the file of individual results: to obtain a valid code, the strings representing the best individuals have been modified, replacing each operation (for example "add") with operator.operation (for example operator.add).   
-These plots can be found in the "kalecki_boxplots" folder and in the "kalecki_plot_solutions" folder respectively. 
+These plots are saved in the "kalecki_boxplots" folder and in the "kalecki_plot_solutions" folder respectively. 
 
 
